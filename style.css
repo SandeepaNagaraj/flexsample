@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    width:100%;
+}
+h1{
+    display:inline;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: lighter;
+
+}
+.fa-registered
+{
+    color:white;
+    position: relative;
+    bottom:10px;
+}
+.fa-pause
+{
+    color:white;
+    position: relative;
+    rotate:90deg;
+    left:1100px;
+
+}
+#flexcontainer>div{
+    flex-direction: row;
+    
+}
+#flexcontainer1{
+    float:right;
+    display:flex;
+    
+}
+.flexcontainer2>div{
+    margin:10px;
+    padding:20px;
+    font-size: medium;
+    color:white;
+    float:left;
+}
